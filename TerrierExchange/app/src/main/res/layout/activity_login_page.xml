@@ -76,7 +76,6 @@
         android:id="@+id/emailInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="492dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:textColor="#7FCBD5"
@@ -85,7 +84,7 @@
         app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.979" />
+        app:layout_constraintVertical_bias="0.281" />
 
     <EditText
         android:id="@+id/editText2"
