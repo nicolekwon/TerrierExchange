@@ -2,7 +2,9 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
+        <item>@font/aladin</item>
         <item>@font/almendra</item>
+        <item>@font/arbutus</item>
         <item>@font/arizonia</item>
         <item>@font/chonburi</item>
         <item>@font/jacques_francois_shadow</item>
