@@ -4,44 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background = "@drawable/welcomeBackground"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="Welcome to Terrier Exchange!"
-        android:textColor="#D61313"
-        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:text="Welcome to "
+        android:textColor="#0B350D"
+        android:textSize="28sp"
         android:textStyle="bold"
-        app:fontFamily="@font/almendra"
+        app:fontFamily="@font/jacques_francois_shadow"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="131dp"
-        android:layout_height="62dp"
-        android:background="#3696E0"
+        android:layout_width="130dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="208dp"
+        android:background="#34212325"
         android:text="Login"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#434346"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="261dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/registerBtn"
         android:layout_width="130dp"
         android:layout_height="67dp"
-        android:background="#3E96E6"
+        android:layout_marginTop="36dp"
+        android:background="#34212325"
         android:text="Register"
-        android:textColor="#131318"
+        android:textColor="#434346"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="359dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginBtn"
+        app:srcCompat="@drawable/Creative-magic-books" />
+
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="151dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="608dp"
+        android:text="Terrier"
+        android:textColor="#0C0B0A"
+        android:textSize="36sp"
+        app:fontFamily="@font/aclonica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/welcome4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exchange!"
+        android:textSize="36sp"
+        app:fontFamily="@font/aclonica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
