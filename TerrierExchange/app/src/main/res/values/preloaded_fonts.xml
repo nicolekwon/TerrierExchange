@@ -2,11 +2,25 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/aguafina_script</item>
         <item>@font/aladin</item>
+        <item>@font/alegreya_sans_thin</item>
+        <item>@font/alike_angular</item>
         <item>@font/almendra</item>
         <item>@font/arbutus</item>
         <item>@font/arizonia</item>
-        <item>@font/chonburi</item>
+        <item>@font/atomic_age</item>
+        <item>@font/bad_script</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/comfortaa_light</item>
+        <item>@font/concert_one</item>
+        <item>@font/cookie</item>
         <item>@font/jacques_francois_shadow</item>
+        <item>@font/kite_one</item>
+        <item>@font/swanky_and_moo_moo</item>
+        <item>@font/unkempt</item>
+        <item>@font/vampiro_one</item>
     </array>
 </resources>
