@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "289300665872",
+    "firebase_url": "https://terrier-exchange-87479.firebaseio.com",
+    "project_id": "terrier-exchange-87479",
+    "storage_bucket": "terrier-exchange-87479.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289300665872:android:4f9c352c0716622e715c95",
+        "android_client_info": {
+          "package_name": "com.example.terrierexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289300665872-aav859ofm9qvorbec5iuvcararu9evde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgK3MeucdvE_FNljy1SCbO6pcng2WVIk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289300665872-aav859ofm9qvorbec5iuvcararu9evde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
