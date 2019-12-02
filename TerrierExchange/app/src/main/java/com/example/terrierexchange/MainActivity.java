@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordInput.getText().toString().trim();
 
                 // check input validation
+                if (TextUtils.isEmpty(email) && TextUtils.isEmpty(password)) {
+                    emailInput.setError("Email is Required.");
+                    passwordInput.setError("Password is Required.");
+                    return;
+                }
+
                 if(TextUtils.isEmpty(email)){
                     emailInput.setError("Email is Required.");
                     return;

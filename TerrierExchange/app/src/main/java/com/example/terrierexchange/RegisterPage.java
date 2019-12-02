@@ -65,6 +65,13 @@ public class RegisterPage extends AppCompatActivity {
                 String password = passwordInput.getText().toString().trim();
                 final String fullName = nameInput.getText().toString();
 
+                // if email and password input is empty, display errors to user
+                if (TextUtils.isEmpty((email)) && TextUtils.isEmpty((password))) {
+                    emailInput.setError("Email is required.");
+                    passwordInput.setError("Password is required.");
+                    return;
+                }
+
                 // if email input is empty, display an error to user
                 if (TextUtils.isEmpty((email))) {
                     emailInput.setError("Email is required.");
@@ -73,9 +80,10 @@ public class RegisterPage extends AppCompatActivity {
 
                 // if password input is empty, display an error to user
                 if (TextUtils.isEmpty((password))) {
-                    emailInput.setError("Password is required.");
+                    passwordInput.setError("Password is required.");
                     return;
                 }
+
                 // if password is not greater than 6 char long, display an error
                 if (password.length() < 6) {
                     passwordInput.setError("Password Must be >= 6 Characters");
