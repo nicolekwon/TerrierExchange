@@ -23,10 +23,10 @@
         app:fontFamily="@font/jacques_francois_shadow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <EditText
         android:id="@+id/emailInput"
@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome2"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <TextView
         android:id="@+id/password"
@@ -134,8 +134,8 @@
 
     <TextView
         android:id="@+id/welcome2"
-        android:layout_width="313dp"
-        android:layout_height="71dp"
+        android:layout_width="312dp"
+        android:layout_height="59dp"
         android:background="#000000"
         android:shadowColor="#FFEB3B"
         android:shadowDx="2"
@@ -147,10 +147,10 @@
         app:fontFamily="@font/calligraffitti"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.094" />
 
     <TextView
         android:id="@+id/textnew"
