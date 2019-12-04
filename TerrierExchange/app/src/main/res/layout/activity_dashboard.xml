@@ -22,7 +22,7 @@
                 android:layout_height="240dp"
                 android:background="@drawable/picofbu"
                 android:textAlignment="center"
-                android:text="TERRIER EXCHANGE DASHBOARD"
+                android:text="DASHBOARD"
                 android:textSize="24sp"
                 android:textColor="@color/colorWhite"
                 android:gravity="bottom"
