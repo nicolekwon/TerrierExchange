@@ -17,24 +17,25 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class Dashboard extends AppCompatActivity {
-    TextView name;
+    // TextView name;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     String userId;
-    Button logoutBtn;
+    // Button logoutBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-        name = findViewById(R.id.nameTextView);
-        logoutBtn = findViewById((R.id.logoutBtn));
+        // name = findViewById(R.id.nameTextView);
+        // logoutBtn = findViewById((R.id.logoutBtn));
 
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
 
         userId = fAuth.getCurrentUser().getUid();
 
+        /*
         // find the user's profile reference on database
         DocumentReference documentReference = fStore.collection("users").document(userId);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
@@ -53,5 +54,7 @@ public class Dashboard extends AppCompatActivity {
                 finish();
             }
         });
+
+         */
     }
 }
