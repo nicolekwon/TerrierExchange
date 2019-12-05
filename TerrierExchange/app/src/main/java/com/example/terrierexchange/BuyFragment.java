@@ -3,11 +3,14 @@ package com.example.terrierexchange;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -26,6 +29,20 @@ public class BuyFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_buy, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        Button casbutton = (Button) view.findViewById(R.id.casbutton);
+        Button kilachandbutton = (Button) view.findViewById(R.id.kilachandbutton);
+        Button combutton = (Button) view.findViewById(R.id.combutton);
+        Button cgsbutton = (Button) view.findViewById(R.id.cgsbutton);
+        Button engbutton = (Button) view.findViewById(R.id.engbutton);
+        Button shabutton = (Button) view.findViewById(R.id.shabutton);
+        Button qstbutton = (Button) view.findViewById(R.id.qstbutton);
+        Button sarbutton = (Button) view.findViewById(R.id.sarbutton);
+
     }
 
 }

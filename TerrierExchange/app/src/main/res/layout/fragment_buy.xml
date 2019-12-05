@@ -60,6 +60,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/casbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -90,6 +96,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/kilachandbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -120,6 +132,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/combutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -160,6 +178,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/cgsbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -220,6 +244,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/engbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -262,6 +292,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/shabutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -292,6 +328,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/qstbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -322,6 +364,12 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
+                    <Button
+                        android:id="@+id/sarbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
