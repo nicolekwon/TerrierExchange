@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Dashboard">
+    tools:context="com.example.terrierexchange.Dashboard">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
                 android:textAlignment="center"
                 android:text="DASHBOARD"
                 android:textSize="24sp"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorPrimaryDark"
                 android:gravity="bottom"
                 />
 
@@ -41,14 +41,16 @@
                     android:orientation="vertical"
                     android:background="@color/colorBURed"
                     >
+
                     <ImageView
-                        android:layout_width="50dp"
+                        android:layout_width="70dp"
                         android:layout_height="50dp"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_cas_globe"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -69,14 +71,16 @@
                     android:orientation="vertical"
                     android:background="@color/colorBUBlack"
                     >
+
                     <ImageView
-                        android:layout_width="50dp"
+                        android:layout_width="70dp"
                         android:layout_height="50dp"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_cas_globe"
+                        android:src="@drawable/ic_honors_logo"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -97,6 +101,7 @@
                     android:orientation="vertical"
                     android:background="@color/colorBURed"
                     >
+
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="50dp"
@@ -105,6 +110,7 @@
                         android:src="@drawable/ic_com_logo"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -135,14 +141,16 @@
                     android:orientation="vertical"
                     android:background="@color/colorBURed"
                     >
+
                     <ImageView
-                        android:layout_width="50dp"
+                        android:layout_width="70dp"
                         android:layout_height="50dp"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_cgs_pic"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -168,20 +176,22 @@
                         android:layout_height="50dp"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_eng_pic"
+                        android:src="@drawable/ic_bulogo"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
                         android:layout_marginTop="15dp"
                         android:background="@color/colorBURed"
-                        android:text="ENG"
+                        android:text="Colleges"
                         android:textSize="16sp"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -191,21 +201,23 @@
                     android:orientation="vertical"
                     android:background="@color/colorBURed"
                     >
+
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="50dp"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_cfa_pic"
+                        android:src="@drawable/ic_eng_pic"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
                         android:layout_marginTop="15dp"
                         android:background="@color/colorBUBlack"
-                        android:text="CFA"
+                        android:text="ENG"
                         android:textSize="16sp"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
@@ -231,14 +243,16 @@
                     android:orientation="vertical"
                     android:background="@color/colorBURed"
                     >
+
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="55dp"
-                        android:layout_marginTop="15dp"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_sha_logo"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -259,6 +273,7 @@
                     android:orientation="vertical"
                     android:background="@color/colorBUBlack"
                     >
+
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="50dp"
@@ -267,6 +282,7 @@
                         android:src="@drawable/ic_qst_pic"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -287,6 +303,7 @@
                     android:orientation="vertical"
                     android:background="@color/colorBURed"
                     >
+
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="50dp"
@@ -295,6 +312,7 @@
                         android:src="@drawable/ic_sar_pic"
                         android:tint="@color/colorWhite"
                         />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
