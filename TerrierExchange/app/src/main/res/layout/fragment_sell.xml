@@ -6,13 +6,19 @@
     tools:context=".SellFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Sell Fragment"
         android:gravity="center"
-        android:textSize="38sp"
+        android:text="Sell Fragment"
         android:textColor="@color/colorBURed"
-        />
+        android:textSize="38sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FindThisCode" />
 
 </FrameLayout>
