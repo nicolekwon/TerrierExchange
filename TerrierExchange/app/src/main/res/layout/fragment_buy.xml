@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/picofbu"
+                android:textAlignment="center"
+                android:text="DASHBOARD"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="bottom"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBURed"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_cas_globe"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBUBlack"
+                        android:text="CAS"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBUBlack"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_honors_logo"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBURed"
+                        android:text="KILACHAND"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBURed"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_com_logo"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBUBlack"
+                        android:text="COM"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- START OF SECOND ROW-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBURed"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_cgs_pic"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBUBlack"
+                        android:text="CGS"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBUBlack"
+                    >
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_bulogo"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBURed"
+                        android:text="COLLEGES"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBURed"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_eng_pic"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBUBlack"
+                        android:text="ENG"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- END OF SECOND ROW-->
+
+            <!-- START OF THIRD ROW-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBURed"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_sha_logo"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBUBlack"
+                        android:text="SHA"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBUBlack"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_qst_pic"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBURed"
+                        android:text="QST"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBURed"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_sar_pic"
+                        android:tint="@color/colorWhite"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorBUBlack"
+                        android:text="SAR"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- END OF THIRD ROW-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
