@@ -27,13 +27,7 @@ public class BuyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_buy, container, false);
-    }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+        View view = inflater.inflate(R.layout.fragment_buy, container, false);
         Button casbutton = (Button) view.findViewById(R.id.casbutton);
         Button kilachandbutton = (Button) view.findViewById(R.id.kilachandbutton);
         Button combutton = (Button) view.findViewById(R.id.combutton);
@@ -42,7 +36,8 @@ public class BuyFragment extends Fragment {
         Button shabutton = (Button) view.findViewById(R.id.shabutton);
         Button qstbutton = (Button) view.findViewById(R.id.qstbutton);
         Button sarbutton = (Button) view.findViewById(R.id.sarbutton);
-
+        // Inflate the layout for this fragment
+        return view;
     }
 
 }
