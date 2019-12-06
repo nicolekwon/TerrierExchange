@@ -132,4 +132,9 @@ public class BuyFragment extends Fragment {
         // Inflate the layout for this fragment
         return view;
     }
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> 4375d5cc994142f569f6db111dd84361cf8f5c82
