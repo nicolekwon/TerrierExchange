@@ -3,7 +3,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/buy_lay"
     tools:context=".BuyFragment">
+
+    <Button
+        android:id="@+id/casbutton"
+        android:layout_width="140dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="240dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/cgsbutton"
+        android:layout_width="140dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="365dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/shabutton"
+        android:layout_width="140dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="485dp"
+        android:background="@android:color/transparent" />
+
+
+    <Button
+        android:id="@+id/kilachandbutton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-73dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/qstbutton"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:layout_marginTop="175dp" />
+
+    <Button
+        android:id="@+id/sarbutton"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="175dp" />
+
+    <Button
+        android:id="@+id/engbutton"
+        android:layout_width="140dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="275dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/combutton"
+        android:layout_width="140dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="275dp"
+        android:background="@android:color/transparent" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,12 +83,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
                 android:background="@drawable/picofbu"
-                android:textAlignment="center"
-                android:text="DASHBOARD"
-                android:textSize="24sp"
-                android:textColor="@color/colorPrimaryDark"
                 android:gravity="bottom"
-                />
+                android:text="DASHBOARD"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -61,11 +124,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/casbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -97,11 +155,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/kilachandbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -133,11 +186,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/combutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -179,11 +227,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/cgsbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -245,11 +288,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/engbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -293,11 +331,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/shabutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -329,11 +362,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/qstbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -365,11 +393,6 @@
                         android:textColor="@color/colorWhite"
                         />
 
-                    <Button
-                        android:id="@+id/sarbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
