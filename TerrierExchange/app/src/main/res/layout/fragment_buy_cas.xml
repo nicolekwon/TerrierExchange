@@ -18,9 +18,9 @@
         android:textStyle="bold" />
 
     <ListView
-        android:id="@+id/listview"
+        android:id="@+id/listviewCAS"
         android:layout_width="match_parent"
-        android:layout_height="632dp"
+        android:layout_height="match_parent"
         android:layout_below="@id/textViewCAS" />
 
 </RelativeLayout>

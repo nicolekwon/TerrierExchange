@@ -17,4 +17,10 @@
         android:textSize="36sp"
         android:textStyle="bold" />
 
+    <ListView
+        android:id="@+id/listviewENG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewENG" />
+
 </RelativeLayout>

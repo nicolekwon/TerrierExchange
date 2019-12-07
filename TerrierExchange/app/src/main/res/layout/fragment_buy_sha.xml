@@ -16,4 +16,11 @@
         android:textColor="#E2D5D5"
         android:textSize="36sp"
         android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listviewSHA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewSHA" />
+
 </RelativeLayout>
