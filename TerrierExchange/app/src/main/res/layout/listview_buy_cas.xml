@@ -4,16 +4,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="99dp"
-        android:layout_centerHorizontal="true"
-        android:background="#DB1A1A"
-        android:gravity="center"
-        android:text="CAS"
-        android:textColor="#E2D5D5"
-        android:textSize="36sp"
-        android:textStyle="bold" />
-
 </RelativeLayout>
