@@ -8,16 +8,26 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="66dp"
         android:background="#F2BD2B2B"
         android:gravity="center"
         android:text="Total Price:"
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
+=======
+        android:layout_height="68dp"
+        android:background="#DA0E0E"
+        android:gravity="center"
+        android:text="Total Price:"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+>>>>>>> 9cdd26b4432a15b2b752ba3b00930e29d86edaff
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="76dp"
         android:layout_alignParentBottom="true"
         android:background="#9C1A1A"
@@ -42,4 +52,19 @@
         android:layout_marginTop="1dp" />
 
 
+=======
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:background="#E01717"
+        android:gravity="center"
+        android:text="Next ..."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="595dp"
+        android:layout_below="@id/textView2" />
+>>>>>>> 9cdd26b4432a15b2b752ba3b00930e29d86edaff
 </RelativeLayout>

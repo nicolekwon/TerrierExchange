@@ -26,16 +26,6 @@ public class BuyFragment extends Fragment {
         // Required empty public constructor
     }
 
-/*
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        BuyCasFragment buyCasFragment = new BuyCasFragment();
-        FragmentManager manager = getFragmentManager();
-        manager.beginTransaction().add(R.id.buy_lay,buyCasFragment).commit();
-    }
-*/
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
