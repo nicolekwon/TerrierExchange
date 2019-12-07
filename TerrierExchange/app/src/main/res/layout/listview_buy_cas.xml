@@ -2,4 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+<<<<<<< HEAD
+    android:layout_height="match_parent">
+
+</RelativeLayout>
+=======
     android:layout_height="match_parent"/>
+>>>>>>> 5aa74e1c04e98b5ad44cad9f57331d7bf34a154f

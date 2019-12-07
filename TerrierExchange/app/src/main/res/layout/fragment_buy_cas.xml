@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BuyCasFragment">
+
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewCAS"
         android:layout_width="match_parent"
         android:layout_height="99dp"
         android:layout_centerHorizontal="true"
@@ -20,5 +21,6 @@
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="632dp"
-        android:layout_below="@id/textView2" />
+        android:layout_below="@id/textViewCAS" />
+
 </RelativeLayout>
