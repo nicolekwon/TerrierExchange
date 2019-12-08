@@ -15,8 +15,8 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textView6"
+    <Button
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="76dp"
         android:layout_alignParentBottom="true"
@@ -34,23 +34,12 @@
         android:layout_marginTop="1dp" />
 
     <ListView
+        android:id="@+id/price_list"
         android:layout_width="132dp"
         android:layout_height="584dp"
         android:layout_below="@id/textView2"
         android:layout_alignLeft="@id/textbook_list"
         android:layout_marginLeft="283dp"
-        android:layout_marginTop="1dp"
-        android:layout_alignParentBottom="true"
-        android:background="#E01717"
-        android:gravity="center"
-        android:text="Next ..."
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:textStyle="bold" />/>
-
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="595dp"
-        android:layout_below="@id/textView2" />
+        android:layout_above="@id/next_btn"
+        android:background="#FFA491" />
 </RelativeLayout>
