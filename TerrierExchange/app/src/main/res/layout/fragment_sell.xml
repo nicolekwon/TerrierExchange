@@ -29,10 +29,10 @@
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <ImageView
         android:id="@+id/image_view"
@@ -124,7 +124,7 @@
 
     <EditText
         android:id="@+id/textbook_name_input"
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Name"
@@ -138,7 +138,7 @@
 
     <EditText
         android:id="@+id/text_book_price_input"
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Price"
@@ -152,7 +152,7 @@
 
     <EditText
         android:id="@+id/description_input"
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
         android:ems="10"
         android:hint="Item Description"
