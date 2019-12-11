@@ -31,7 +31,7 @@ public class BuyShaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_buy_sar, container, false);
-        listView = (ListView) view.findViewById(R.id.listviewSAR);
+        listView = (ListView) view.findViewById(R.id.listviewSAR); // this says ListView for SAR
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("SHA example 1");
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, arrayList);
