@@ -42,4 +42,12 @@
         android:layout_marginLeft="283dp"
         android:layout_above="@id/next_btn"
         android:background="#FFA491" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cart_layout" >
+
+    </FrameLayout>
+
 </RelativeLayout>
