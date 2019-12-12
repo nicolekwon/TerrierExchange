@@ -37,6 +37,7 @@ public class BuyCasFragment extends Fragment {
     }
 
     ListView listView;
+    ListView mListView;
     View view;
     FirebaseFirestore db;
     List<String> namesList = new ArrayList<>();
@@ -44,8 +45,17 @@ public class BuyCasFragment extends Fragment {
     List<String> descriptionList = new ArrayList<>();
     List<String> imageList = new ArrayList<>();
 
+    int [] images = {R.drawable.ic_launcher_background,
+                     R.drawable.ic_launcher_background,
+                     R.drawable.ic_launcher_background,
+                     R.drawable.ic_launcher_background,
+                     R.drawable.ic_launcher_background,
+                     };
+
+    String[] BookNames = {"Book 1" , "Book 2", "Book 3", "Book 4", "Book 5"};
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+   /* public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_buy_cas, container, false);
         listView = view.findViewById(R.id.listviewCAS);
         db = FirebaseFirestore.getInstance();
@@ -87,12 +97,18 @@ public class BuyCasFragment extends Fragment {
 
                 ArrayAdapter<HashMap<String, String>> adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_selectable_list_item);
                 adapter.notifyDataSetChanged();
-                listView.setAdapter(adapter);
+                listView.setAdapter(adapter);*/
+
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_buy_cas, container, false);
+        return rootView;
+    }
             }
-        });
+       // });
 
         // Inflate the layout for this fragment
-        return view;
-    }
+  //      return view;
+  //  }
 
-}
+//}
