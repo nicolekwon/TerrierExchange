@@ -30,8 +30,18 @@ public class BuyCasFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
+
         view = inflater.inflate(R.layout.fragment_buy_cas, container, false);
+
         listView = (ListView) view.findViewById(R.id.listviewCAS);
+
+
+
+
+
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("CAS example 1");
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, arrayList);
