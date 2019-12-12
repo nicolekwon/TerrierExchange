@@ -1,0 +1,4 @@
+# Referenced at C:\Users\a7089\AndroidStudioProjects\EC327-Final-Project\TerrierExchange\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\a7089\AndroidStudioProjects\EC327-Final-Project\TerrierExchange\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
