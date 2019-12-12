@@ -3,4 +3,7 @@ KANYD is a team consisting of Yan Chen (ychen01@bu.edu), Kathleen Wong (kleencw@
 
 In order to build the project, you must open an existing project created (the TerrierExchange folder containing app, res, etc.) on Android Studio. Then, you should download an emulator (we used the Pixel 2 or Pixel 3 API 29) to run the app. Once this is made possible and the project is synced with the gradle files, you should be able to run the app. If the app did not automatically open up, you can do so by finding the Terrier Exchange app (yellow with a "TX" label) on the emulator. Once this is done, you will be directed to a login page, and you should first register an account. 
 
+The direct path to the source code is: src/TerrierExchange/app/src/main/java/com/example/terrierexchange/
+The direct path to the XML files is: /src/TerrierExchange/app/src/main/res/layout/
+
 The link to the YouTube video: 
