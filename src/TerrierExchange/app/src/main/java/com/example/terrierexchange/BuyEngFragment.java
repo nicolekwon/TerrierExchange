@@ -33,7 +33,7 @@ public class BuyEngFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_buy_eng, container, false);
         listView = (ListView) view.findViewById(R.id.listviewENG);
         ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("COM example 1");
+        arrayList.add("ENG example 1");
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, arrayList);
         listView.setAdapter(arrayAdapter);
 
