@@ -9,4 +9,4 @@ The direct path to the source code is: src/TerrierExchange/app/src/main/java/com
 
 The direct path to the XML files is: /src/TerrierExchange/app/src/main/res/layout/
 
-The link to the YouTube video: 
+The link to the YouTube video: https://www.youtube.com/watch?v=kjf81TF-u8w&feature=youtu.be
